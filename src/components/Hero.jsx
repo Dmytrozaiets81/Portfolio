@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 
+// Custom utils
 import { styles } from "../styles"
 import { ComputersCanvas } from "./canvas"
 
