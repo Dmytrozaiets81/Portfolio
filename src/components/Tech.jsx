@@ -1,5 +1,4 @@
 import { BallCanvas } from "./canvas"
-import { motion } from "framer-motion"
 
 // Custom utils
 import { technologies } from "../constants"
