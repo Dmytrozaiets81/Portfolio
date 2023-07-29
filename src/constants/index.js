@@ -41,11 +41,11 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "Software Developer",
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "Frontend Developer",
 		icon: mobile,
 	},
 	{
@@ -53,7 +53,7 @@ const services = [
 		icon: backend,
 	},
 	{
-		title: "Content Creator",
+		title: "Mobile Developer",
 		icon: creator,
 	},
 ]
@@ -203,6 +203,7 @@ const projects = [
 		],
 		image: hoobank,
 		source_code_link: "https://github.com/Juanescacha/Bank-Modern-UI",
+		deploy_link: "https://juanes-bank-modern.vercel.app/",
 	},
 	{
 		name: "Job IT",

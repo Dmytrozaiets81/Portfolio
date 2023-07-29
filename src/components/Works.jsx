@@ -15,6 +15,7 @@ const ProjectCard = ({
 	tags,
 	image,
 	source_code_link,
+	deploy_link,
 }) => {
 	return (
 		<motion.div
@@ -27,7 +28,10 @@ const ProjectCard = ({
 					<img
 						src={image}
 						alt={name}
-						className="object-cover w-full h-full rounded-2xl"
+						className="object-cover w-full h-full cursor-pointer rounded-2xl"
+						onClick={() => {
+							window.open(deploy_link, "_blank")
+						}}
 					/>
 					<div className="absolute top-0 right-0 flex justify-end m-3 card-img_hover">
 						<div
