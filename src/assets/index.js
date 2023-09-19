@@ -25,9 +25,10 @@ import teleperformance from "./company/tp.png"
 import endava from "./company/endava.png"
 import blancLabs from "./company/blancLabs.png"
 
-import hoobank from "./hooBank.png"
-import jobit from "./jobit.png"
-import tripguide from "./tripguide.png"
+import hoobank from "./screenshots/juanes-bank.png"
+import artGallery from "./screenshots/fem-art-gallery-website.png"
+import podRequest from "./screenshots/fem-pod-request-access-landing-page.png"
+import rockPaperScissors from "./screenshots/fem-rock-paper-scissors-game.png"
 
 export {
 	logo,
@@ -55,6 +56,7 @@ export {
 	endava,
 	blancLabs,
 	hoobank,
-	jobit,
-	tripguide,
+	artGallery,
+	podRequest,
+	rockPaperScissors,
 }

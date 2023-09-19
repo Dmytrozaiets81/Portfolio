@@ -1,6 +1,9 @@
 import {
 	backend,
 	hoobank,
+	podRequest,
+	artGallery,
+	rockPaperScissors,
 	creator,
 	css,
 	docker,
@@ -8,7 +11,6 @@ import {
 	git,
 	html,
 	javascript,
-	jobit,
 	mobile,
 	mongodb,
 	nodejs,
@@ -19,7 +21,6 @@ import {
 	tailwind,
 	blancLabs,
 	threejs,
-	tripguide,
 	typescript,
 	web,
 } from "../assets"
@@ -121,10 +122,11 @@ const experiences = [
 		iconBg: "#383E56",
 		date: "July 2023 - January 2024",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Contributed to the design and development of responsive web applications, ensuring a seamless user experience across various devices and screen sizes.",
+			"Collaborated closely with other developers to implement both front-end (UI) and back-end (API) functionalities, ensuring seamless integration.",
+			"Engaged in concurrent coding challenges in study groups and delivered presentations, fostering collaborative problem-solving skills in a team environment.",
+			"Maintained an iterative approach to development, regularly incorporating feedback and updates into ongoing projects.",
+			"Took ownership of assigned tasks and delivered solutions independently, showcasing problem-solving abilities.",
 		],
 	},
 	{
@@ -134,10 +136,10 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "May 2023 - Present",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Collaborated with cross-functional teams in the financial and healthcare sectors to accelerate digital transformation initiatives for companies in the United States and Canada.",
+			"Participated in multidisciplinary knowledge-sharing sessions and learning groups to address the challenges of digital transformation.",
+			"Explored practical technology solutions to resolve digital transformation challenges.",
+			"Gained insights into the intersection of technology and practical problem-solving in the business context.",
 		],
 	},
 	{
@@ -147,10 +149,11 @@ const experiences = [
 		iconBg: "#383E56",
 		date: "September 2022 - December 2023",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Developed multitasking skills by efficiently managing multiple tasks concurrently to address customer inquiries and concerns.",
+			"Utilized effective interrogation strategies to identify and understand customer situations, ensuring personalized support.",
+			"Leveraged tools and systems to identify and implement appropriate solutions to customer issues.",
+			"Demonstrated independence and problem-solving skills by autonomously resolving customer problems.",
+			"Prioritized quick and effective actions to deliver high-quality solutions and maintain excellent customer service.",
 		],
 	},
 ]
@@ -186,7 +189,7 @@ const projects = [
 	{
 		name: "HooBank",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"Online banking hub for secure, easy financial management. Join us now!",
 		tags: [
 			{
 				name: "react",
@@ -198,7 +201,7 @@ const projects = [
 			},
 			{
 				name: "tailwind",
-				color: "pink-text-gradient",
+				color: "blue-text-gradient",
 			},
 		],
 		image: hoobank,
@@ -206,46 +209,63 @@ const projects = [
 		deploy_link: "https://juanes-bank-modern.vercel.app/",
 	},
 	{
-		name: "Job IT",
+		name: "Pod Request Access",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"Unlock your podcast potential with our easy sign-up landing page. Get started today!",
 		tags: [
 			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "restapi",
+				name: "vue",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
-				color: "pink-text-gradient",
+				name: "tailwind",
+				color: "blue-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: podRequest,
+		source_code_link:
+			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Pod%20request%20access%20landing%20page",
+		deploy_link:
+			"https://fem-pod-request-access-landing-page-juanescacha.vercel.app/",
 	},
 	{
-		name: "Trip Guide",
+		name: "Art Gallery",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"Discover art's beauty at our exclusive gallery event. RSVP now!",
 		tags: [
 			{
-				name: "nextjs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "supabase",
+				name: "vue",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
-				color: "pink-text-gradient",
+				name: "tailwind",
+				color: "blue-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: artGallery,
+		source_code_link:
+			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Art%20Gallery%20Website",
+		deploy_link: "https://fem-art-gallery-website-juanescacha.vercel.app/",
+	},
+	{
+		name: "Rock Paper Scissors",
+		description:
+			"Ready for a classic game? Play Rock, Paper, Scissors online now!",
+		tags: [
+			{
+				name: "vue",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "blue-text-gradient",
+			},
+		],
+		image: rockPaperScissors,
+		source_code_link:
+			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Rock%20Paper%20Scissors%20Game",
+		deploy_link:
+			"https://fem-rock-paper-scissors-game-juanescacha.vercel.app/",
 	},
 ]
 
