@@ -29,6 +29,7 @@ import hoobank from "./screenshots/juanes-bank.png"
 import artGallery from "./screenshots/fem-art-gallery-website.png"
 import podRequest from "./screenshots/fem-pod-request-access-landing-page.png"
 import rockPaperScissors from "./screenshots/fem-rock-paper-scissors-game.png"
+import urlShorteningApi from "./screenshots/fem-url-shortening-api-landing-page.png"
 
 export {
 	logo,
@@ -59,4 +60,5 @@ export {
 	artGallery,
 	podRequest,
 	rockPaperScissors,
+	urlShorteningApi,
 }

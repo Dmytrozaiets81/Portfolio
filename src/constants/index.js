@@ -4,6 +4,7 @@ import {
 	podRequest,
 	artGallery,
 	rockPaperScissors,
+	urlShorteningApi,
 	creator,
 	css,
 	docker,
@@ -266,6 +267,25 @@ const projects = [
 			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Rock%20Paper%20Scissors%20Game",
 		deploy_link:
 			"https://fem-rock-paper-scissors-game-juanescacha.vercel.app/",
+	},
+	{
+		name: "Url Shortening Api",
+		description:
+			"Shorten your links and track how many times they've been clicked.",
+		tags: [
+			{
+				name: "vue",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "blue-text-gradient",
+			},
+		],
+		image: urlShorteningApi,
+		source_code_link:
+			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Url%20Shortening%20Api%20Landing%20Page",
+		deploy_link: "https://fem-url-shortening-api-landing-page.netlify.app/",
 	},
 ]
 
