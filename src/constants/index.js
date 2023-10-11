@@ -5,6 +5,7 @@ import {
 	artGallery,
 	rockPaperScissors,
 	urlShorteningApi,
+	endavaMarketplace,
 	creator,
 	css,
 	docker,
@@ -286,6 +287,31 @@ const projects = [
 		source_code_link:
 			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Url%20Shortening%20Api%20Landing%20Page",
 		deploy_link: "https://fem-url-shortening-api-landing-page.netlify.app/",
+	},
+	{
+		name: "Endava Marketplace",
+		description: "Endavan's internal marketplace to share and trade items.",
+		tags: [
+			{
+				name: "vue",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Spring",
+				color: "green-text-gradient",
+			},
+			{
+				name: "postgreSQL",
+				color: "blue-text-gradient",
+			},
+		],
+		image: endavaMarketplace,
+		source_code_link: "https://github.com/Juanescacha/endava-marketplace",
+		deploy_link: "https://endava-marketplace.vercel.app/",
 	},
 ]
 
