@@ -8,7 +8,7 @@ import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 
-const service = "service_u6n55r6"
+const service = "service_o5lblm3"
 const template = "template_e58i79g"
 const public_key = "jWPZiAHm0Z0opItSF"
 
@@ -20,45 +20,60 @@ const Contact = () => {
 		message: "",
 	})
 	const [loading, setLoading] = useState(false)
+	const [error, setError] = useState(false)
+
+	const isValidEmail = email => {
+		const re = /\S+@\S+\.\S+/
+		return re.test(email)
+	}
 
 	const handleChange = e => {
 		const { name, value } = e.target
 		setForm({ ...form, [name]: value })
+
+		if (name === "email") {
+			setError(!isValidEmail(value))
+		}
 	}
 
 	const handleSubmit = e => {
 		e.preventDefault()
 		setLoading(true)
 
-		emailjs
-			.send(
-				`${service}`,
-				`${template}`,
-				{
-					from_name: form.email,
-					to_name: "Juan",
-					from_email: form.email,
-					to_email: "camargojuanesteban@gmail.com",
-					message: form.message,
-				},
-				`${public_key}`
-			)
-			.then(
-				() => {
-					setLoading(false)
-					alert(
-						"Thank you. I will get back to you as soon as possible."
-					)
+		if (!error && form.name && form.email && form.message) {
+			emailjs
+				.send(
+					`${service}`,
+					`${template}`,
+					{
+						from_name: form.email,
+						to_name: "Juan",
+						from_email: form.email,
+						to_email: "camargojuanesteban@gmail.com",
+						message: form.message,
+					},
+					`${public_key}`
+				)
+				.then(
+					() => {
+						setLoading(false)
+						alert(
+							"Thank you. I will get back to you as soon as possible."
+						)
 
-					setForm({ name: "", email: "", message: "" })
-				},
-				error => {
-					setLoading(false)
-					console.log(error)
-					alert("Something went wrong. Please try again.")
-					setForm({ name: "", email: "", message: "" })
-				}
-			)
+						setForm({ name: "", email: "", message: "" })
+					},
+					error => {
+						setLoading(false)
+						console.log(error)
+						alert("Something went wrong. Please try again.")
+						setForm({ name: "", email: "", message: "" })
+					}
+				)
+		} else {
+			setLoading(false)
+			alert("Please fill in all the fields correctly.")
+		}
 	}
 
 	return (
@@ -98,6 +113,12 @@ const Contact = () => {
 							placeholder="What's your email?"
 							className="px-6 py-4 font-medium text-white border-none rounded-lg outline-none bg-tertiary placeholder:text-secondary"
 						/>
+						<p
+							className={`text-red-500 italic font-bold mt-2 ${
+								error ? "block" : "hidden"
+							}`}>
+							Please enter a valid email
+						</p>
 					</label>
 					<label className="flex flex-col">
 						<span className="mb-4 font-medium text-white">
