@@ -31,6 +31,8 @@ import podRequest from "./screenshots/fem-pod-request-access-landing-page.png"
 import rockPaperScissors from "./screenshots/fem-rock-paper-scissors-game.png"
 import urlShorteningApi from "./screenshots/fem-url-shortening-api-landing-page.png"
 import endavaMarketplace from "./screenshots/endava-marketplace.png"
+import multiStepForm from "./screenshots/fem-multi-step-form.png"
+import socialMediaDashboard from "./screenshots/fem-social-media-dashboard.png"
 
 export {
 	logo,
@@ -63,4 +65,6 @@ export {
 	rockPaperScissors,
 	urlShorteningApi,
 	endavaMarketplace,
+	multiStepForm,
+	socialMediaDashboard,
 }

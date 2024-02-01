@@ -6,6 +6,8 @@ import {
 	rockPaperScissors,
 	urlShorteningApi,
 	endavaMarketplace,
+	multiStepForm,
+	socialMediaDashboard,
 	creator,
 	css,
 	docker,
@@ -231,8 +233,7 @@ const projects = [
 		image: podRequest,
 		source_code_link:
 			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Pod%20request%20access%20landing%20page",
-		deploy_link:
-			"https://fem-pod-request-access-landing-page-juanescacha.vercel.app/",
+		deploy_link: "https://fem-pod-request-access.netlify.app/",
 	},
 	{
 		name: "Art Gallery",
@@ -251,7 +252,7 @@ const projects = [
 		image: artGallery,
 		source_code_link:
 			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Art%20Gallery%20Website",
-		deploy_link: "https://fem-art-gallery-website-juanescacha.vercel.app/",
+		deploy_link: "https://fem-art-gallery-website.netlify.app/",
 	},
 	{
 		name: "Rock Paper Scissors",
@@ -270,8 +271,7 @@ const projects = [
 		image: rockPaperScissors,
 		source_code_link:
 			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Rock%20Paper%20Scissors%20Game",
-		deploy_link:
-			"https://fem-rock-paper-scissors-game-juanescacha.vercel.app/",
+		deploy_link: "https://fem-rock-paper-scissors-game.netlify.app/",
 	},
 	{
 		name: "Url Shortening Api",
@@ -293,30 +293,80 @@ const projects = [
 		deploy_link: "https://fem-url-shortening-api-landing-page.netlify.app/",
 	},
 	{
-		name: "Endava Marketplace",
-		description: "Endavan's internal marketplace to share and trade items.",
+		name: "Multi Step Form",
+		description:
+			"A bill payment multi-step form with validation and progress bar.",
 		tags: [
 			{
 				name: "vue",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
-				color: "blue-text-gradient",
+				name: "sass",
+				color: "pink-text-gradient",
 			},
 			{
-				name: "Spring",
-				color: "green-text-gradient",
+				name: "pinia",
+				color: "orange-text-gradient",
 			},
 			{
-				name: "postgreSQL",
+				name: "bem",
 				color: "blue-text-gradient",
 			},
 		],
-		image: endavaMarketplace,
-		source_code_link: "https://github.com/Juanescacha/endava-marketplace",
-		deploy_link: "https://endava-marketplace.vercel.app/",
+		image: multiStepForm,
+		source_code_link:
+			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Multi%20Step%20Form",
+		deploy_link: "https://fem-multistep-form-juanes.netlify.app/",
 	},
+	{
+		name: "Social Media Dashboard",
+		description:
+			"A dashboard to track your social media stats and performance.",
+		tags: [
+			{
+				name: "vue",
+				color: "green-text-gradient",
+			},
+			{
+				name: "sass",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "bem",
+				color: "blue-text-gradient",
+			},
+		],
+		image: socialMediaDashboard,
+		source_code_link:
+			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Social%20Media%20Dashboard%20with%20Theme%20Switcher",
+		deploy_link: "https://fem-socialmedia-dashboard.netlify.app/",
+	},
+	// {
+	// 	name: "Endava Marketplace",
+	// 	description: "Endavan's internal marketplace to share and trade items.",
+	// 	tags: [
+	// 		{
+	// 			name: "vue",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "Spring",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "postgreSQL",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 	],
+	// 	image: endavaMarketplace,
+	// 	source_code_link: "https://github.com/Juanescacha/endava-marketplace",
+	// 	deploy_link: "https://endava-marketplace.vercel.app/",
+	// },
 ]
 
 export { services, technologies, experiences, testimonials, projects }
