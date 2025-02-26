@@ -8,9 +8,9 @@ import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
 
-const service = "service_o5lblm3"
-const template = "template_e58i79g"
-const public_key = "jWPZiAHm0Z0opItSF"
+const service = "service_iiee307"
+const template = "template_0y4f2ua"
+const public_key = "MWuooiUKcPenFZpY_"
 
 const Contact = () => {
 	const formRef = useRef()
@@ -47,9 +47,9 @@ const Contact = () => {
 					`${template}`,
 					{
 						from_name: form.email,
-						to_name: "Juan",
+						to_name: "Dmytro",
 						from_email: form.email,
-						to_email: "camargojuanesteban@gmail.com",
+						to_email: "dmytrozaiets81@gmail.com",
 						message: form.message,
 					},
 					`${public_key}`
