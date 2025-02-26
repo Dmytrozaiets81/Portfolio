@@ -39,6 +39,10 @@ export const navLinks = [
 		title: "Experience",
 	},
 	{
+		id: "education",
+		title: "Education",
+	},
+	{
 		id: "projects",
 		title: "Projects",
 	},
@@ -124,44 +128,44 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Developer Intern",
-		company_name: "Endava",
+		title: "Front-End Developer",
+		company_name: "ECiklum",
 		icon: endava,
-		iconBg: "#383E56",
-		date: "July 2023 - January 2024",
-		points: [
-			"Contributed to the design and development of responsive web applications, ensuring a seamless user experience across various devices and screen sizes.",
-			"Collaborated closely with other developers to implement both front-end (UI) and back-end (API) functionalities, ensuring seamless integration.",
-			"Engaged in concurrent coding challenges in study groups and delivered presentations, fostering collaborative problem-solving skills in a team environment.",
-			"Maintained an iterative approach to development, regularly incorporating feedback and updates into ongoing projects.",
-			"Took ownership of assigned tasks and delivered solutions independently, showcasing problem-solving abilities.",
-		],
-	},
-	{
-		title: "Associate",
-		company_name: "Blanc Labs",
-		icon: blancLabs,
-		iconBg: "#E6DEDD",
-		date: "May 2023 - Present",
-		points: [
-			"Collaborated with cross-functional teams in the financial and healthcare sectors to accelerate digital transformation initiatives for companies in the United States and Canada.",
-			"Participated in multidisciplinary knowledge-sharing sessions and learning groups to address the challenges of digital transformation.",
-			"Explored practical technology solutions to resolve digital transformation challenges.",
-			"Gained insights into the intersection of technology and practical problem-solving in the business context.",
-		],
-	},
-	{
-		title: "Customer Service Associate",
-		company_name: "Teleperformance",
-		icon: teleperformance,
 		iconBg: "#383E56",
 		date: "September 2022 - December 2023",
 		points: [
-			"Developed multitasking skills by efficiently managing multiple tasks concurrently to address customer inquiries and concerns.",
-			"Utilized effective interrogation strategies to identify and understand customer situations, ensuring personalized support.",
-			"Leveraged tools and systems to identify and implement appropriate solutions to customer issues.",
-			"Demonstrated independence and problem-solving skills by autonomously resolving customer problems.",
-			"Prioritized quick and effective actions to deliver high-quality solutions and maintain excellent customer service.",
+			"Designed and implemented interactive and user-friendly web interfaces for various clients, enhancing user engagement and satisfaction.",
+			"Collaborated with UI/UX designers to translate wireframes and prototypes into functional code, ensuring a consistent visual and experiential output.",
+			"Optimized applications for maximum speed and scalability, leading to a 30% reduction in load times.",
+			"Conducted thorough testing and debugging of applications, effectively identifying and resolving issues to improve overall performance and reliability.",
+			"Contributed to code reviews and team meetings, fostering an environment of knowledge exchange and continuous improvement.",
+		],
+	},
+	{
+		title: "Data Analyst",
+		company_name: "Data Insights Corp",
+		icon: blancLabs,
+		iconBg: "#E6DEDD",
+		date: "July 2023 - January 2024",
+		points: [
+			"Analyzed large datasets to identify trends, patterns, and actionable insights, informing business strategies for diverse clients in the retail sector.",
+			"Created interactive dashboards and visualizations using Tableau to present findings to stakeholders, enhancing data-driven decision-making processes.",
+			"Collaborated with cross-functional teams to define project goals and deliverables while ensuring alignment with overall business objectives.",
+			"Documented analytical processes and findings, contributing to the knowledge base for future projects and team members.",
+		],
+	},
+	{
+		title: "Campaign Coordinator",
+		company_name: "Creative Media Agency",
+		icon: teleperformance,
+		iconBg: "#383E56",
+		date: "May 2023 - Present",
+		points: [
+			"Coordinated and executed multi-channel marketing campaigns for clients, implementing strategies across social media, email, and content marketing to enhance brand visibility.",
+			"Conducted market research and competitive analysis to inform campaign strategies, resulting in a 40% increase in client engagement metrics.",
+			"Supported the development of marketing materials, such as blog posts, advertisements, and newsletters, to effectively communicate brand messaging.",
+			"Monitored and reported on campaign performance metrics, providing insights and recommendations for ongoing optimization and improvement.",
+			"Collaborated with the creative team to ensure brand consistency and effective messaging across all marketing platforms.",
 		],
 	},
 ]
@@ -169,53 +173,30 @@ const experiences = [
 const testimonials = [
 	{
 		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Juan proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
+			"Kyiv National University of Technologies and Design",
+		// designation: "CFO",
+		company: "Bachelor of Computer Science (BCompSc), Computer science",
+		// image: "https://randomuser.me/api/portraits/women/4.jpg",
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Juan does.",
+			"Udemy - IT & Software Courses",
 		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
+		// designation: "COO",
+		company: "Computer engineering",
+		// image: "https://randomuser.me/api/portraits/men/5.jpg",
 	},
 	{
 		testimonial:
-			"After Juan optimized our website, our traffic increased by 50%. We can't thank them enough!",
+			"Sigmund Freud University",
 		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
+		// designation: "CTO",
+		company: "Science & Technology",
+		// image: "https://randomuser.me/api/portraits/women/6.jpg",
 	},
 ]
 
 const projects = [
-	{
-		name: "HooBank",
-		description:
-			"Online banking hub for secure, easy financial management. Join us now!",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "mongodb",
-				color: "green-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "blue-text-gradient",
-			},
-		],
-		image: hoobank,
-		source_code_link: "https://github.com/Juanescacha/Bank-Modern-UI",
-		deploy_link: "https://juanes-bank-modern.vercel.app/",
-	},
 	{
 		name: "Pod Request Access",
 		description:
@@ -231,9 +212,8 @@ const projects = [
 			},
 		],
 		image: podRequest,
-		source_code_link:
-			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Pod%20request%20access%20landing%20page",
-		deploy_link: "https://fem-pod-request-access.netlify.app/",
+		// source_code_link:
+		// deploy_link: "https://fem-pod-request-access.netlify.app/",
 	},
 	{
 		name: "Art Gallery",
@@ -250,17 +230,21 @@ const projects = [
 			},
 		],
 		image: artGallery,
-		source_code_link:
-			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Art%20Gallery%20Website",
-		deploy_link: "https://fem-art-gallery-website.netlify.app/",
+		// source_code_link:
+		// 	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Art%20Gallery%20Website",
+		// deploy_link: "https://fem-art-gallery-website.netlify.app/",
 	},
 	{
-		name: "Rock Paper Scissors",
+		name: "HooBank",
 		description:
-			"Ready for a classic game? Play Rock, Paper, Scissors online now!",
+			"Online banking hub for secure, easy financial management.",
 		tags: [
 			{
-				name: "vue",
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "mongodb",
 				color: "green-text-gradient",
 			},
 			{
@@ -268,11 +252,29 @@ const projects = [
 				color: "blue-text-gradient",
 			},
 		],
-		image: rockPaperScissors,
-		source_code_link:
-			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Rock%20Paper%20Scissors%20Game",
-		deploy_link: "https://fem-rock-paper-scissors-game.netlify.app/",
+		image: hoobank,
+		// source_code_link: "https://github.com/Juanescacha/Bank-Modern-UI",
+		// deploy_link: "https://juanes-bank-modern.vercel.app/",
 	},
+	// {
+	// 	name: "Rock Paper Scissors",
+	// 	description:
+	// 		"Ready for a classic game? Play Rock, Paper, Scissors online now!",
+	// 	tags: [
+	// 		{
+	// 			name: "vue",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 	],
+	// 	image: rockPaperScissors,
+	// 	// source_code_link:
+	// 		// "https://github.com/Juanescacha/Frontend-Mentor/tree/main/Rock%20Paper%20Scissors%20Game",
+	// 	// deploy_link: "https://fem-rock-paper-scissors-game.netlify.app/",
+	// },
 	{
 		name: "Url Shortening Api",
 		description:
@@ -288,9 +290,9 @@ const projects = [
 			},
 		],
 		image: urlShorteningApi,
-		source_code_link:
-			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Url%20Shortening%20Api%20Landing%20Page",
-		deploy_link: "https://fem-url-shortening-api-landing-page.netlify.app/",
+		// source_code_link:
+		// 	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Url%20Shortening%20Api%20Landing%20Page",
+		// deploy_link: "https://fem-url-shortening-api-landing-page.netlify.app/",
 	},
 	{
 		name: "Multi Step Form",
@@ -315,9 +317,9 @@ const projects = [
 			},
 		],
 		image: multiStepForm,
-		source_code_link:
-			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Multi%20Step%20Form",
-		deploy_link: "https://fem-multistep-form-juanes.netlify.app/",
+		// source_code_link:
+		// 	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Multi%20Step%20Form",
+		// deploy_link: "https://fem-multistep-form-juanes.netlify.app/",
 	},
 	{
 		name: "Social Media Dashboard",
@@ -338,35 +340,10 @@ const projects = [
 			},
 		],
 		image: socialMediaDashboard,
-		source_code_link:
-			"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Social%20Media%20Dashboard%20with%20Theme%20Switcher",
-		deploy_link: "https://fem-socialmedia-dashboard.netlify.app/",
+		// source_code_link:
+		// 	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Social%20Media%20Dashboard%20with%20Theme%20Switcher",
+		// deploy_link: "https://fem-socialmedia-dashboard.netlify.app/",
 	},
-	// {
-	// 	name: "Endava Marketplace",
-	// 	description: "Endavan's internal marketplace to share and trade items.",
-	// 	tags: [
-	// 		{
-	// 			name: "vue",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "tailwind",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "Spring",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "postgreSQL",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 	],
-	// 	image: endavaMarketplace,
-	// 	source_code_link: "https://github.com/Juanescacha/endava-marketplace",
-	// 	deploy_link: "https://endava-marketplace.vercel.app/",
-	// },
 ]
 
 export { services, technologies, experiences, testimonials, projects }
