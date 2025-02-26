@@ -128,44 +128,45 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Front-End Developer",
-		company_name: "ECiklum",
-		icon: endava,
-		iconBg: "#383E56",
-		date: "September 2022 - December 2023",
-		points: [
-			"Designed and implemented interactive and user-friendly web interfaces for various clients, enhancing user engagement and satisfaction.",
-			"Collaborated with UI/UX designers to translate wireframes and prototypes into functional code, ensuring a consistent visual and experiential output.",
-			"Optimized applications for maximum speed and scalability, leading to a 30% reduction in load times.",
-			"Conducted thorough testing and debugging of applications, effectively identifying and resolving issues to improve overall performance and reliability.",
-			"Contributed to code reviews and team meetings, fostering an environment of knowledge exchange and continuous improvement.",
-		],
-	},
-	{
-		title: "Data Analyst",
-		company_name: "Data Insights Corp",
+		title: "Software Developer",
+		company_name: "Dnipro",
 		icon: blancLabs,
 		iconBg: "#E6DEDD",
-		date: "July 2023 - January 2024",
+		date: "July 2023 - December 2023",
 		points: [
-			"Analyzed large datasets to identify trends, patterns, and actionable insights, informing business strategies for diverse clients in the retail sector.",
-			"Created interactive dashboards and visualizations using Tableau to present findings to stakeholders, enhancing data-driven decision-making processes.",
-			"Collaborated with cross-functional teams to define project goals and deliverables while ensuring alignment with overall business objectives.",
-			"Documented analytical processes and findings, contributing to the knowledge base for future projects and team members.",
+			"Developed and maintained web applications, ensuring functionality and efficiency for internal and external clients.",
+			"Wrote clean, scalable, and maintainable code in JavaScript and Python, improving software performance.",
+			"Collaborated with backend developers to integrate APIs and optimize system architecture for better data flow.",
+			"Performed debugging and troubleshooting to resolve technical issues, reducing system downtime by 25%.",
+			"Contributed to software documentation and user guides, enhancing knowledge transfer and onboarding efficiency."
 		],
 	},
 	{
-		title: "Campaign Coordinator",
-		company_name: "Creative Media Agency",
+		title: "Senio Software Developer",
+		company_name: "Tashkent",
+		icon: endava,
+		iconBg: "#383E56",
+		date: "February 2024 - April 2024",
+		points: [
+			"Led a team of developers in designing and implementing robust web applications for high-profile clients.",
+			"Architected scalable software solutions, improving performance and reducing technical debt across projects.",
+			"Reviewed and optimized code through rigorous testing, achieving a 30% improvement in efficiency.",
+			"Mentored junior developers, fostering skill development and knowledge-sharing within the team.",
+			"Collaborated with stakeholders to define project requirements and deliver innovative technology solutions."
+		],
+	},
+	{
+		title: "Full Stack Developer",
+		company_name: "Luxoft",
 		icon: teleperformance,
 		iconBg: "#383E56",
-		date: "May 2023 - Present",
+		date: "May 2024 - November 2024",
 		points: [
-			"Coordinated and executed multi-channel marketing campaigns for clients, implementing strategies across social media, email, and content marketing to enhance brand visibility.",
-			"Conducted market research and competitive analysis to inform campaign strategies, resulting in a 40% increase in client engagement metrics.",
-			"Supported the development of marketing materials, such as blog posts, advertisements, and newsletters, to effectively communicate brand messaging.",
-			"Monitored and reported on campaign performance metrics, providing insights and recommendations for ongoing optimization and improvement.",
-			"Collaborated with the creative team to ensure brand consistency and effective messaging across all marketing platforms.",
+			"Developed and maintained full-stack applications using modern technologies such as React, Node.js, and PostgreSQL.",
+			"Implemented RESTful APIs to improve communication between frontend and backend systems.",
+			"Optimized application performance, reducing response times by 40% through efficient database queries and caching strategies.",
+			"Integrated third-party services and APIs, enhancing the functionality and scalability of web applications.",
+			"Worked closely with UI/UX designers to create seamless and visually appealing user experiences."
 		],
 	},
 ]
