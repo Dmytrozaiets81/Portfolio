@@ -28,12 +28,12 @@ const ProjectCard = ({
 					<img
 						src={image}
 						alt={name}
-						className="object-cover w-full h-full cursor-pointer rounded-2xl"
-						onClick={() => {
-							window.open(deploy_link, "_blank")
-						}}
+						className="object-cover w-full h-full rounded-2xl"
+						// onClick={() => {
+						// 	window.open(deploy_link, "_blank")
+						// }}
 					/>
-					<div className="absolute top-0 right-0 flex justify-end m-3 card-img_hover">
+					{/* <div className="absolute top-0 right-0 flex justify-end m-3 card-img_hover">
 						<div
 							className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
 							onClick={() => {
@@ -45,7 +45,7 @@ const ProjectCard = ({
 								className="object-contain w-1/2 h-1/2"
 							/>
 						</div>
-					</div>
+					</div> */}
 				</div>
 				<div className="mt-5">
 					<h3 className="text-2xl font-bold">{name}</h3>
@@ -80,7 +80,7 @@ const Works = () => {
 					className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
 					Following projects showcases my skills and experience
 					through real-world examples of my work. Each project is
-					briefly described with links to code repositories and live
+					briefly described with code repositories and live
 					demos in it. It reflects my ability to solve complex
 					problems, work with different technologies, and manage
 					projects effectively.
