@@ -41,7 +41,7 @@ const Navbar = () => {
 									: "text-secondary"
 							} hover:text-white text-[18px]cursor-pointer font-medium`}
 							onClick={() => setActive(link.title)}>
-							<a href={`#${link.id}`}>{link.title}</a>
+							<a href={link.id!="resume"?`#${link.id}`:link.link} target={link.id!="resume"?"":"_blank"}>{link.title}</a>
 						</li>
 					))}
 				</ul>

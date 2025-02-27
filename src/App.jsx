@@ -7,6 +7,7 @@ import {
 	Contact,
 	Education,
 	Experience,
+	Resume,
 	// Feedbacks,
 	Hero,
 	Navbar,
@@ -14,6 +15,7 @@ import {
 	Tech,
 	Works,
 } from "./components"
+// import Resume from "./components/Resume"
 
 const App = () => {
 	return (
@@ -25,6 +27,7 @@ const App = () => {
 				</div>
 				<About />
 				<Experience />
+				<Resume />
 				<Tech />
 				<Education />
 				<Works />

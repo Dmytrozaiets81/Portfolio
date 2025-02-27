@@ -3,9 +3,7 @@ import {
 	hoobank,
 	podRequest,
 	artGallery,
-	rockPaperScissors,
 	urlShorteningApi,
-	endavaMarketplace,
 	multiStepForm,
 	socialMediaDashboard,
 	creator,
@@ -49,6 +47,7 @@ export const navLinks = [
 	{
 		id: "resume",
 		title: "Resume",
+		link: "https://drive.google.com/file/d/1foAiQZMUVIjt5FwvxVGwkQMuJMDGyynf/view?usp=drive_link",
 	},
 	{
 		id: "contact",
@@ -201,6 +200,10 @@ const testimonials = [
 	},
 ]
 
+const resume = [{
+	soruce_code_link : "https://drive.google.com/file/d/1foAiQZMUVIjt5FwvxVGwkQMuJMDGyynf/view?usp=sharing"
+}]
+
 const projects = [
 	{
 		name: "Pod Request Access",
@@ -351,4 +354,4 @@ const projects = [
 	},
 ]
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, testimonials, projects, resume }
