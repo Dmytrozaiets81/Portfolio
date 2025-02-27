@@ -200,10 +200,6 @@ const testimonials = [
 	},
 ]
 
-const resume = [{
-	soruce_code_link : "https://drive.google.com/file/d/1foAiQZMUVIjt5FwvxVGwkQMuJMDGyynf/view?usp=sharing"
-}]
-
 const projects = [
 	{
 		name: "Pod Request Access",
@@ -354,4 +350,4 @@ const projects = [
 	},
 ]
 
-export { services, technologies, experiences, testimonials, projects, resume }
+export { services, technologies, experiences, testimonials, projects }

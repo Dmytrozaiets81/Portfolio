@@ -7,7 +7,6 @@ import {
 	Contact,
 	Education,
 	Experience,
-	Resume,
 	// Feedbacks,
 	Hero,
 	Navbar,
@@ -27,7 +26,6 @@ const App = () => {
 				</div>
 				<About />
 				<Experience />
-				<Resume />
 				<Tech />
 				<Education />
 				<Works />
