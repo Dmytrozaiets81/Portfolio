@@ -47,7 +47,7 @@ export const navLinks = [
 	{
 		id: "resume",
 		title: "Resume",
-		link: "https://drive.google.com/file/d/1foAiQZMUVIjt5FwvxVGwkQMuJMDGyynf/view?usp=drive_link",
+		link: "https://drive.google.com/file/d/1um317dYBUHDcEfO_DFunYjAT-ZVlntNq/view?usp=sharing",
 	},
 	{
 		id: "contact",
@@ -131,21 +131,21 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Software Developer",
-		company_name: "Dnipro",
-		icon: blancLabs,
-		iconBg: "#E6DEDD",
-		date: "July 2023 - December 2023",
+		title: "Senior Full Stack Developer",
+		company_name: "Luxoft",
+		icon: teleperformance,
+		iconBg: "#383E56",
+		date: "May 2024 - November 2024",
 		points: [
-			"Developed and maintained web applications, ensuring functionality and efficiency for internal and external clients.",
-			"Wrote clean, scalable, and maintainable code in JavaScript and Python, improving software performance.",
-			"Collaborated with backend developers to integrate APIs and optimize system architecture for better data flow.",
-			"Performed debugging and troubleshooting to resolve technical issues, reducing system downtime by 25%.",
-			"Contributed to software documentation and user guides, enhancing knowledge transfer and onboarding efficiency."
+			"Developed and maintained full-stack applications using modern technologies such as React, Node.js, and PostgreSQL.",
+			"Implemented RESTful APIs to improve communication between frontend and backend systems.",
+			"Optimized application performance, reducing response times by 40% through efficient database queries and caching strategies.",
+			"Integrated third-party services and APIs, enhancing the functionality and scalability of web applications.",
+			"Worked closely with UI/UX designers to create seamless and visually appealing user experiences."
 		],
 	},
 	{
-		title: "Senio Software Developer",
+		title: "Junior Full Stack Developer",
 		company_name: "Tashkent",
 		icon: endava,
 		iconBg: "#383E56",
@@ -160,18 +160,18 @@ const experiences = [
 	},
 	{
 		title: "Full Stack Developer",
-		company_name: "Luxoft",
-		icon: teleperformance,
-		iconBg: "#383E56",
-		date: "May 2024 - November 2024",
+		company_name: "Dnipro",
+		icon: blancLabs,
+		iconBg: "#E6DEDD",
+		date: "July 2023 - December 2023",
 		points: [
-			"Developed and maintained full-stack applications using modern technologies such as React, Node.js, and PostgreSQL.",
-			"Implemented RESTful APIs to improve communication between frontend and backend systems.",
-			"Optimized application performance, reducing response times by 40% through efficient database queries and caching strategies.",
-			"Integrated third-party services and APIs, enhancing the functionality and scalability of web applications.",
-			"Worked closely with UI/UX designers to create seamless and visually appealing user experiences."
+			"Developed and maintained web applications, ensuring functionality and efficiency for internal and external clients.",
+			"Wrote clean, scalable, and maintainable code in JavaScript and Python, improving software performance.",
+			"Collaborated with backend developers to integrate APIs and optimize system architecture for better data flow.",
+			"Performed debugging and troubleshooting to resolve technical issues, reducing system downtime by 25%.",
+			"Contributed to software documentation and user guides, enhancing knowledge transfer and onboarding efficiency."
 		],
-	},
+	}
 ]
 
 const testimonials = [
