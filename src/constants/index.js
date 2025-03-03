@@ -260,25 +260,6 @@ const projects = [
 		// source_code_link: "https://github.com/Juanescacha/Bank-Modern-UI",
 		// deploy_link: "https://juanes-bank-modern.vercel.app/",
 	},
-	// {
-	// 	name: "Rock Paper Scissors",
-	// 	description:
-	// 		"Ready for a classic game? Play Rock, Paper, Scissors online now!",
-	// 	tags: [
-	// 		{
-	// 			name: "vue",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "tailwind",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 	],
-	// 	image: rockPaperScissors,
-	// 	// source_code_link:
-	// 		// "https://github.com/Juanescacha/Frontend-Mentor/tree/main/Rock%20Paper%20Scissors%20Game",
-	// 	// deploy_link: "https://fem-rock-paper-scissors-game.netlify.app/",
-	// },
 	{
 		name: "Url Shortening Api",
 		description:
