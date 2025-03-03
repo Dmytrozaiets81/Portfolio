@@ -294,9 +294,6 @@ const projects = [
 			},
 		],
 		image: urlShorteningApi,
-		// source_code_link:
-		// 	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Url%20Shortening%20Api%20Landing%20Page",
-		// deploy_link: "https://fem-url-shortening-api-landing-page.netlify.app/",
 	},
 	{
 		name: "Multi Step Form",
