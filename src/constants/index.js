@@ -179,7 +179,7 @@ const testimonials = [
 	{
 		testimonial:
 			"Kyiv National University of Technologies and Design",
-		// designation: "CFO",
+
 		company: "Bachelor of Computer Science (BCompSc), Computer science",
 		// image: "https://randomuser.me/api/portraits/women/4.jpg",
 	},
@@ -235,7 +235,6 @@ const projects = [
 			},
 		],
 		image: artGallery,
-		// source_code_link:
 		// 	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Art%20Gallery%20Website",
 		// deploy_link: "https://fem-art-gallery-website.netlify.app/",
 	},
@@ -295,9 +294,6 @@ const projects = [
 			},
 		],
 		image: urlShorteningApi,
-		// source_code_link:
-		// 	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Url%20Shortening%20Api%20Landing%20Page",
-		// deploy_link: "https://fem-url-shortening-api-landing-page.netlify.app/",
 	},
 	{
 		name: "Multi Step Form",
