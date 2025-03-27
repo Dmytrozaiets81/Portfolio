@@ -22,7 +22,7 @@ const ProjectCard = ({
 			variants={fadeIn("up", "spring", index * 0.5, 0.75)}
 			className="">
 			<Tilt
-				className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+				className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full cursor-pointer"
 				options={{ max: 45, scale: 1, speed: 450 }}>
 				<div className="relative w-full h-[230px]">
 					<img
