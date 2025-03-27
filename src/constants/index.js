@@ -217,8 +217,8 @@ const projects = [
 			},
 		],
 		image: podRequest,
-		// source_code_link:
-		// deploy_link: "https://fem-pod-request-access.netlify.app/",
+		source_code_link: "https://github.com/Juanescacha/Frontend-Mentor/tree/main/Social%20Media%20Dashboard%20with%20Theme%20Switcher",
+		deploy_link: "https://fem-socialmedia-dashboard.netlify.app/",
 	},
 	{
 		name: "Art Gallery",
@@ -235,8 +235,8 @@ const projects = [
 			},
 		],
 		image: artGallery,
-		// 	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Art%20Gallery%20Website",
-		// deploy_link: "https://fem-art-gallery-website.netlify.app/",
+		source_code_link:	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Art%20Gallery%20Website",
+		deploy_link: "https://fem-art-gallery-website.netlify.app/",
 	},
 	{
 		name: "HooBank",
@@ -257,8 +257,9 @@ const projects = [
 			},
 		],
 		image: hoobank,
-		// source_code_link: "https://github.com/Juanescacha/Bank-Modern-UI",
-		// deploy_link: "https://juanes-bank-modern.vercel.app/",
+		source_code_link: "https://github.com/Juanescacha/Bank-Modern-UI",
+		deploy_link: "https://juanes-bank-modern.vercel.app/",
+		//git push origin main
 	},
 	{
 		name: "Url Shortening Api",
@@ -299,9 +300,8 @@ const projects = [
 			},
 		],
 		image: multiStepForm,
-		// source_code_link:
-		// 	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Multi%20Step%20Form",
-		// deploy_link: "https://fem-multistep-form-juanes.netlify.app/",
+		source_code_link:"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Multi%20Step%20Form",
+		deploy_link: "https://fem-multistep-form-juanes.netlify.app/",
 	},
 	{
 		name: "Social Media Dashboard",
@@ -322,9 +322,8 @@ const projects = [
 			},
 		],
 		image: socialMediaDashboard,
-		// source_code_link:
-		// 	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Social%20Media%20Dashboard%20with%20Theme%20Switcher",
-		// deploy_link: "https://fem-socialmedia-dashboard.netlify.app/",
+		source_code_link: "https://github.com/Juanescacha/Frontend-Mentor/tree/main/Social%20Media%20Dashboard%20with%20Theme%20Switcher",
+		deploy_link: "https://fem-socialmedia-dashboard.netlify.app/",
 	},
 ]
 
