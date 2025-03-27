@@ -259,6 +259,7 @@ const projects = [
 		image: hoobank,
 		source_code_link: "https://github.com/Juanescacha/Bank-Modern-UI",
 		deploy_link: "https://juanes-bank-modern.vercel.app/",
+		//git push origin main
 	},
 	{
 		name: "Url Shortening Api",
