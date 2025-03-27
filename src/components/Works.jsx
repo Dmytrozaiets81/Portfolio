@@ -29,11 +29,11 @@ const ProjectCard = ({
 						src={image}
 						alt={name}
 						className="object-cover w-full h-full rounded-2xl"
-						// onClick={() => {
-						// 	window.open(deploy_link, "_blank")
-						// }}
+						onClick={() => {
+							window.open(deploy_link, "_blank")
+						}}
 					/>
-					{/* <div className="absolute top-0 right-0 flex justify-end m-3 card-img_hover">
+					<div className="absolute top-0 right-0 flex justify-end m-3 card-img_hover">
 						<div
 							className="flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient"
 							onClick={() => {
@@ -45,7 +45,7 @@ const ProjectCard = ({
 								className="object-contain w-1/2 h-1/2"
 							/>
 						</div>
-					</div> */}
+					</div>
 				</div>
 				<div className="mt-5">
 					<h3 className="text-2xl font-bold">{name}</h3>
