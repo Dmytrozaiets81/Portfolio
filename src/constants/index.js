@@ -217,8 +217,8 @@ const projects = [
 			},
 		],
 		image: podRequest,
-		source_code_link: "https://github.com/Juanescacha/Frontend-Mentor/tree/main/Social%20Media%20Dashboard%20with%20Theme%20Switcher",
-		deploy_link: "https://fem-socialmedia-dashboard.netlify.app/",
+		source_code_link: "https://github.com/Dmytrozaiets81/Mentor-Frontend/tree/main/Pod_request_access_landing_page",
+		deploy_link: "https://mentor-frontend-pod-request.vercel.app/",
 	},
 	{
 		name: "Art Gallery",
@@ -235,8 +235,8 @@ const projects = [
 			},
 		],
 		image: artGallery,
-		source_code_link:	"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Art%20Gallery%20Website",
-		deploy_link: "https://fem-art-gallery-website.netlify.app/",
+		source_code_link:	"https://github.com/Dmytrozaiets81/Mentor-Frontend/tree/main/Art_Gallery_Website",
+		deploy_link: "https://mentor-frontend-art.vercel.app/",
 	},
 	{
 		name: "HooBank",
@@ -276,6 +276,8 @@ const projects = [
 			},
 		],
 		image: urlShorteningApi,
+		source_code_link: "https://github.com/Dmytrozaiets81/Mentor-Frontend/tree/main/Url_Shortening_Api_Landing_Page",
+		deploy_link: "https://mentor-frontend-url.vercel.app/",
 	},
 	{
 		name: "Multi Step Form",
@@ -300,8 +302,8 @@ const projects = [
 			},
 		],
 		image: multiStepForm,
-		source_code_link:"https://github.com/Juanescacha/Frontend-Mentor/tree/main/Multi%20Step%20Form",
-		deploy_link: "https://fem-multistep-form-juanes.netlify.app/",
+		source_code_link:"https://github.com/Dmytrozaiets81/Mentor-Frontend/tree/main/Multi_Step_Form",
+		deploy_link: "https://mentor-frontend-multi-step.vercel.app/",
 	},
 	{
 		name: "Social Media Dashboard",
@@ -322,8 +324,8 @@ const projects = [
 			},
 		],
 		image: socialMediaDashboard,
-		source_code_link: "https://github.com/Juanescacha/Frontend-Mentor/tree/main/Social%20Media%20Dashboard%20with%20Theme%20Switcher",
-		deploy_link: "https://fem-socialmedia-dashboard.netlify.app/",
+		source_code_link: "https://github.com/Dmytrozaiets81/Mentor-Frontend/tree/main/Social_Media_Dashboard_with_Theme_Switcher",
+		deploy_link: "https://mentor-frontend-social-media.vercel.app/",
 	},
 ]
 
