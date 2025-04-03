@@ -257,8 +257,8 @@ const projects = [
 			},
 		],
 		image: hoobank,
-		source_code_link: "https://github.com/Juanescacha/Bank-Modern-UI",
-		deploy_link: "https://juanes-bank-modern.vercel.app/",
+		source_code_link: "https://github.com/Dmytrozaiets81/bank-web",
+		deploy_link: "https://bank-web-ten.vercel.app/",
 		//git push origin main
 	},
 	{
